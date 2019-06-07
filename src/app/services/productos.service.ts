@@ -20,7 +20,10 @@ export class ProductosService {
           console.log(resp);
           this.productos = resp;
           this.cargando = false;
-        });
-    
+        }); 
+  }
+
+  getProducto(id: string){
+    return this.http.get(`https://angular-html-portafolio-udemy.firebaseio.com/productos/${id}.json`);
   }
 }
