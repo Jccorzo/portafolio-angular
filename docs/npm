@@ -1,0 +1,9 @@
+Starting up http-server, serving C:\Users\corzo.juan"OneDrive
+Available on:
+  http://192.168.56.1:8080
+  http://192.168.99.1:8080
+  http://192.168.1.4:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+http-server stopped.
+Terminate batch job (Y/N)? 
